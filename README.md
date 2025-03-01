@@ -1,20 +1,14 @@
-<!-- Improved compatibility of back to top link-->
-<a name="readme-top"></a>
-[![es](https://img.shields.io/badge/Idioma-Español-red.svg)](/README-ES.md)
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JuanAntBuit/WeatherProject">
-    <img src="images/logo.webp" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Pinankh/WeatherFetch-Master">
+    <img src="project_images/ic_launcher.webp" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">WeatherProject</h3>
 
   <p align="center">
-    WeatherProject is a Kotlin Android app that gathers data from the OpenWeatherMap API and showcases global weather information
+    WeatherFetchProject is a Kotlin Android app that gathers data from the OpenWeatherMap API and showcases global weather information
     <br />
     <br />
   </p>
@@ -104,9 +98,11 @@
 
 
 ### Images
+### LightMode
+<img src="project_images/english/english_light.jpg" alt="Logo" width="800">
 
-<img src="images/english/english_light.jpg" alt="Logo" width="800">
-<img src="images/english/english_dark.jpg" alt="Logo" width="800">
+### DarkMode
+<img src="project_images/english/english_dark.jpg" alt="Logo" width="800">
 
 
 <!-- GETTING STARTED -->
@@ -120,7 +116,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/JuanAntBuit/WeatherProject.git
+   git clone https://github.com/Pinankh/WeatherFetch-Master.git
    ```
    
 2. Create a local.properties file in the project root if it does not exist
@@ -132,11 +128,11 @@
    OPENWEATHER_KEY=your_openweather_key
    ```
    
-6. You will need to create a free account on <a href="https://www.algolia.com/es/">Algolia</a>. Then, create an application
+6. You will need to create a free account on <a href="https://www.algolia.com/">Algolia</a>. Then, create an application.
    
 7. Generate a search API key, save the ID of the app you have created, and then create an index under that app. You will need to save the index name to set up the search functionality in this app
 
-8. Next, populate the index with the following <a href="https://drive.google.com/file/d/1ImLwmPhV83evkeQs1zu2iR8N6k7bQ-Je/view?usp=sharing">records</a>
+8. Next, populate the index with the following <a href="https://drive.google.com/file/d/1HHOLBsk6mQOROQwwEM47NaMei9gRSM4x/view?usp=sharing">records</a>
 
 9. Enter your Algolia API key, app id and index name in `local.properties`   
    ```kt
@@ -156,17 +152,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- Design -->
-## Design
-
-The design of the main screen is inspired by the [Weather App Freebie](https://www.uplabs.com/posts/weather-app-freebie) concept by [Raman Yv](https://www.uplabs.com/ramandesigns9).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -179,16 +164,6 @@ Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Juan Antonio Buitrago B. - juanantoniobuit@gmail.com
+Pinankh Patel - pinankhpatel@hotmail.com
 
-Linkedin: https://www.linkedin.com/in/juan-antonio-buitrago-balsalobre/
-
-Project Link: [https://github.com/JuanAntBuit/WeatherProject](https://github.com/JuanAntBuit/WeatherProject)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-url]: https://github.com/JuanAntBuit/WeatherProject/blob/master/LICENSE
-[product-screenshot]: images/screenshot.png
+Linkedin: https://www.linkedin.com/in/pinankh-patel-19400350/
